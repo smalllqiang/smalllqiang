@@ -16,7 +16,7 @@ a {
 }
 
 header {
-    background: rgb(127, 127, 127);
+    background: #555555;
     font-size: 2rem;
 	padding: 1rem;
 	display: flex;
