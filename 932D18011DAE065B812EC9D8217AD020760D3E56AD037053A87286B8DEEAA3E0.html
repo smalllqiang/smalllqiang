@@ -4,15 +4,28 @@
         <meta charset="utf-8"> 
         <title>主页</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="img/icon32x32.ico">
 		<script src="script.js"></script>
     </head>
     <body>
+		<p id="timedemo">00000000</p>
 		<p>
 			<ul>
-				<li><a href="https://www.bilibili.com/">bilibili</a></li>
-				<li><a href="https://t.bilibili.com/">bilibili动态</a></li>
-				<li><a href="https://fanyi.baidu.com/">百度翻译</a></li>
+				<li><a target="_blank" href="https://www.baidu.com/">百度一下</a></li>
+				<li><a target="_blank" href="https://fanyi.baidu.com/">百度翻譯</a></li>
+				<li><a target="_blank" href="https://www.bilibili.com/">bilibili</a></li>
+				<li><a target="_blank" href="https://t.bilibili.com/">bilibili動態</a></li>
+				<li><a target="_blank" href="https://my.qidian.com/bookcase/">起點 我的書架</a></li>
+				<br>
+				<li><a target="_blank" href="https://bbs.nyasama.com/">喵玉殿論壇</li>
+				<li><a target="_blank" href="https://tieba.baidu.com/">百度貼吧</a></li>
+
+				<br>
+				<li><a target="_blank" href="https://tieba.baidu.com/p/6181109590?1==1">tampermonkey script-自動簽到</a></li>
 			</ul>
 		</p>
+		<script>
+			document.getElementById("timedemo").innerHTML=Date();
+		</script>
     </body>
 </html>
